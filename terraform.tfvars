@@ -1,6 +1,6 @@
 parameters = {
   "docdb.dev.master_username" = { type = "String", value = "docdbadmin"}
-  "rds.dev.master_username" = { type = "String", value = "rdsadmin"}
+  "rds.dev.master_username" = { type = "String", value = "devadmin"}
   "rds.dev.database_name" = { type = "String", value = "dummy"}
 
   ## usally the passwords are not preferred to keep in the git repo, we always create the passwords manually whomever have the access.
