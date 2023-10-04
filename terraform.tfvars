@@ -5,6 +5,9 @@ parameters = {
   "rds.dev.master_username" = { type = "String", value = "devadmin"}
   "rds.dev.database_name" = { type = "String", value = "dummy"}
 
+  "user.dev.REDIS_HOST" = { type = "String", value = "dev-redis-elasticache-cluster.lxgdjh.0001.use1.cache.amazonaws.com"}
+
+
   ## usally the passwords are not preferred to keep in the git repo, we always create the passwords manually whomever have the access.
 
   # but for the practice purpose giving the password here.
