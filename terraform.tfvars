@@ -21,13 +21,6 @@ parameters = {
   "rabbitmq.dev.AMQP_USER"    = { type = "String", value = "roboshop"}
   "rabbitmq.dev.AMQP_PASS"    = { type = "String", value = "roboshop123"}
 
-#  Environment=CART_HOST={{ lookup('amazon.aws.aws_ssm', 'payment.{{env}}.CART_HOST', region='us-east-1') }}
-#  Environment=CART_PORT={{ lookup('amazon.aws.aws_ssm', 'payment.{{env}}.CART_PORT', region='us-east-1') }}
-#  Environment=USER_HOST={{ lookup('amazon.aws.aws_ssm', 'payment.{{env}}.USER_HOST', region='us-east-1') }}
-#  Environment=USER_PORT={{ lookup('amazon.aws.aws_ssm', 'payment.{{env}}.USER_PORT', region='us-east-1') }}
-#  Environment=AMQP_HOST={{ lookup('amazon.aws.aws_ssm', 'payment.{{env}}.AMQP_HOST', region='us-east-1') }}
-#  Environment=AMQP_USER={{ lookup('amazon.aws.aws_ssm', 'rabbitmq.{{env}}.AMQP_USER', region='us-east-1') }}
-#  Environment=AMQP_PASS={{ lookup('amazon.aws.aws_ssm', 'rabbitmq.{{env}}.AMQP_PASS', region='us-east-1') }}
 
 
 
